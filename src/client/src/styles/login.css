@@ -1,0 +1,371 @@
+@import url('https://fonts.cdnfonts.com/css/aquatico');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+
+thead {
+  background-color: #1abc9c;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #e0f7fa;
+}
+#h1-bienvenido {
+    font-family: 'Comfortaa',cursive;
+    text-align: center;
+    font-size:300%;
+}
+
+#ErrorSesion {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    font-family: 'Comfortaa',cursive;
+}
+
+#ErrorSesion > h1 {
+    width:100%;
+    text-align: center;
+
+}
+
+#ErrorSesion > button {
+    width:30%;
+    height:10vh;
+    text-align: center;
+    border-radius: 30%;
+    font-size:200%;
+    
+}
+
+body{
+    margin:0;
+    padding:0;
+   
+ 
+    
+
+}
+
+#LoginHeader {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+
+    font-family: 'Aquatico', sans-serif;
+    font-size:2em;
+    width:100%;
+    height:300px;
+    background-color: #1abc9c;
+   
+   
+
+
+ 
+ 
+}
+
+@media (max-width: 768px) {
+  select {
+    background-color: wheat !important;
+  }
+    #LoginHeader {
+     flex-flow:column;
+     font-size:1em;
+     width:100%
+    }
+    #LoginHeader > img {
+    border-radius: 70%;
+    
+  
+}
+    #LoginBody > img {
+        
+        display:none;
+    }
+
+    #LoginBody > form {
+        width:100%;
+        border-radius:0%;
+        height:100vh;
+        
+      
+        
+       
+    }
+
+    #LoginFooter {
+        display:none;
+    }
+    #LoginBody form{
+        height:300px;
+       
+       
+    }
+
+   body {
+    background-color: #1abc9c;
+   }
+    
+    #HomeProfesorMenu {
+        flex-flow:column;
+        width:100%;
+       
+    }
+    #HomeProfesorMenu > button {
+        width:100%;
+    }
+    
+    #CrearIncidenciaBody > form {
+     width:100%;
+     border-radius: 0%;
+   
+    
+   
+    }
+
+    #exito{
+        height:200px;
+    }
+
+    #CrearIncidenciaBody > img {
+        display:none;
+        
+    }
+
+    #descripcion {
+        width:100%
+    }
+
+   #tabla {
+
+}
+
+ }
+
+#LoginHeader > img {
+    border-radius: 70%;
+  
+}
+
+#LoginBody {
+    
+    
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+}
+
+form {
+    text-align:center;
+    font-family: 'Comfortaa',cursive;
+     
+    background-color: #1abc9c;
+    padding-top:2%;
+    padding-left:2%;
+    padding-right:2%;
+    padding-bottom:2%;
+    border:1px solid #1abc9c;
+    border-radius: 10%;
+   
+}
+
+input {
+    
+        border-radius:10%;
+        padding:10px;
+    
+}
+
+button{
+    border-top-left-radius: 20%;
+    border-top-right-radius:20%;
+    padding:10px;
+    background-color:#1abc9c;
+    color:black;
+    font-family: 'Comfortaa',cursive;
+}
+
+/* #LoginFooter {
+   
+background-color: red;
+position: absolute;
+bottom:0;
+width:100%;
+  
+
+} */
+
+
+
+h3{
+  font-family: 'Comfortaa',cursive;
+}
+select {
+  font-family:'Comfortaa',cursive;
+  font-size: 16px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  background-color: #1abc9c;
+  color: black;
+  appearance: none;
+  outline: none;
+  cursor: pointer;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+select:hover {
+  background-color: #16a085;
+}
+
+select:focus {
+  box-shadow: 0px 2px 5px rgba(26, 188, 156, 0.4);
+}
+
+select option {
+  color: black;
+}
+
+/* Agregar una flecha personalizada */
+select:after {
+  content: "\25BC";
+  color: white;
+  font-size: 16px;
+  margin-left: 8px;
+}
+
+
+
+
+
+
+
+#HomeProfesorMenu{
+    display:flex;
+    
+    
+}
+
+#crearIncidencia {
+   margin-right:auto;
+   width:50%;
+   border-radius:0%;
+   font-size:200%;
+   height:6vh;
+}
+
+#verIncidencia {
+    width:50%;
+    border-radius:0%;
+    height:6vh;
+    font-size:200%
+}
+
+
+
+#CrearIncidenciaBody {
+    
+    display:flex;
+    justify-content: center;
+  
+}
+
+
+#ExitoPadre {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+table,tr,td {
+    border:1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  #VerIncidenciasBody {
+    display: flex;
+    justify-content: center;
+
+  }
+
+  #regitrarse {
+    cursor:pointer;
+  }
+
+
+
+  #RegistrarseForm {
+
+    width:100%;
+    display:flex;
+    justify-content: center;
+   
+  }
+
+  #RegistrarseForm form {
+    width:30%
+  }
+
+  #VerIncidenciasBody{
+   
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+
+  #VerIncidenciasBody button{
+    width:20%;
+    height:10vh;
+
+  }
+
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  table {
+    margin-top:100px;
+  }

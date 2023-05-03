@@ -1,0 +1,43 @@
+{
+  "name": "wishlist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html",
+    "lint": "eslint --fix src/**/*.{js,jsx}",
+    "format": "prettier --write \"*.{js,jsx,json,css}\""
+  },
+  "prettier": {
+    "trailingComma": "all",
+    "singleQuote": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlvYuste/react-course-wishlist.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlvYuste/react-course-wishlist/issues"
+  },
+  "homepage": "https://github.com/AlvYuste/react-course-wishlist#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "jquery": "^3.6.3",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.2",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.2"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.5.16",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react": "^7.32.2",
+    "parcel-bundler": "^1.12.5",
+    "prettier": "^2.8.4"
+  }
+}
